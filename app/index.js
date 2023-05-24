@@ -64,3 +64,5 @@ app.get('/cats', async (req, res) => {
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
 });
+
+//docker run -p 3000:80 -d 789659791828.dkr.ecr.us-east-2.amazonaws.com/backhaul-cadastros-svc
